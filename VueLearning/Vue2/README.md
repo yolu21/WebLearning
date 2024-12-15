@@ -4,7 +4,7 @@ This repository documents my journey in learning Vue 2, primarily through follow
 
 ## Table of Contents
 
-1. [#1 data binding](https://github.com/yolu21/WebLearning/tree/main/VueLearning/Vue2/#1-Data-binding)
+1. [data binding](https://github.com/yolu21/WebLearning/tree/main/VueLearning/Vue2/%231-Data-binding)
 
 ---
 
@@ -14,4 +14,4 @@ This repository documents my journey in learning Vue 2, primarily through follow
 
 ## 目錄
 
-1. [#1 資料綁定](https://github.com/yolu21/WebLearning/tree/main/VueLearning/Vue2/#1-Data-binding)
+1. [資料綁定](https://github.com/yolu21/WebLearning/tree/main/VueLearning/Vue2/%231-Data-binding)
