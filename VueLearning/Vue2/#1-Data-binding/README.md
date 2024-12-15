@@ -48,17 +48,16 @@ In this project, three different methods were used to implement data binding and
   </div>
   ```
 
-  ```javescript
+  ```javascript
   let data = {
-      src: "photo.png",
-      title:"Vue2 練習#1"
-  }
+    src: "photo.png",
+    title: "Vue2 練習#1",
+  };
 
-
-  let vm =new Vue({
-      el:"#app",
-      data:data
-  })
+  let vm = new Vue({
+    el: "#app",
+    data: data,
+  });
   ```
 
 ---
@@ -80,22 +79,22 @@ In this project, three different methods were used to implement data binding and
 
 - 修改資料不能自動更新到頁面上，要再把資料更新到頁面上
 
-      ``` html
-        <div class="title">
-            <img class="photo" src="">
-            <h1></h1>
-        </div>
-      ```
+  ```html
+  <div class="title">
+    <img class="photo" src="" />
+    <h1></h1>
+  </div>
+  ```
 
-      ``` javascript
-      let data = {
-          src: "photo.png",
-          title:"Vue2 練習#1"
-      }
+  ```javascript
+  let data = {
+    src: "photo.png",
+    title: "Vue2 練習#1",
+  };
 
-      $('.title > h1').text(data.title)
-      $('.photo').attr('src', data.src)
-      ```
+  $(".title > h1").text(data.title);
+  $(".photo").attr("src", data.src);
+  ```
 
   3.Vue 2
 
@@ -112,15 +111,14 @@ In this project, three different methods were used to implement data binding and
   </div>
   ```
 
-  ```javescript
+  ```javascript
   let data = {
-      src: "photo.png",
-      title:"Vue2 練習#1"
-  }
+    src: "photo.png",
+    title: "Vue2 練習#1",
+  };
 
-
-  let vm =new Vue({
-      el:"#app",
-      data:data
-  })
+  let vm = new Vue({
+    el: "#app",
+    data: data,
+  });
   ```
