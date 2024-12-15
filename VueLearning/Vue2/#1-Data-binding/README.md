@@ -8,7 +8,7 @@ In this project, three different methods were used to implement data binding and
    ```html
    <div class="title">
      <img class="photo" src="photo.png" alt="my photo" />
-     <h1>Vue2 Practice #1</h1>
+     <h1>Vue2 練習#1</h1>
    </div>
    ```
 
