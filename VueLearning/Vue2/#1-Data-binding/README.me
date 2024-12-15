@@ -4,14 +4,16 @@
 # 資料綁定
 在這個專案中，使用了三種不同的方法來實現資料綁定並呈現畫面：
 
-1. 一般的 HTML 和 CSS
+1. **一般的 HTML 和 CSS**
+
 ``` html
 <div class="title">
     <img class="photo" src="photo.png" alt="my photo">
     <h1>Vue2 練習#1</h1>
 </div>
 
-2. jQuery
+2. **jQuery**
+
 - 修改資料不能自動更新到頁面上，要再把資料更新到頁面上
 
 ``` html
@@ -29,8 +31,10 @@ let data = {
 $('.title > h1').text(data.title)
 $('.photo').attr('src', data.src)
 
-3. Vue 2 
+3. ** Vue 2 **
+
 - 修改資料可自動更新到頁面上
+
 ``` html
 <div class="title">
     <!-- both of the following are correct -->
