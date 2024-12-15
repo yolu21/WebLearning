@@ -16,49 +16,49 @@ In this project, three different methods were used to implement data binding and
 
    - With jQuery, data changes do not automatically update the page. You need to manually update the DOM when the data changes.
 
-```html
-<div class="title">
-  <img class="photo" src="" />
-  <h1></h1>
-</div>
-```
+   ```html
+   <div class="title">
+     <img class="photo" src="" />
+     <h1></h1>
+   </div>
+   ```
 
-```javascript
-let data = {
-  src: "photo.png",
-  title: "Vue2 練習#1",
-};
+   ```javascript
+   let data = {
+     src: "photo.png",
+     title: "Vue2 練習#1",
+   };
 
-$(".title > h1").text(data.title);
-$(".photo").attr("src", data.src);
-```
+   $(".title > h1").text(data.title);
+   $(".photo").attr("src", data.src);
+   ```
 
 3. Vue 2
 
    - In Vue 2, data changes automatically update the page.
    - There are two ways to bind data in HTML, and the following is the most commonly used approach:
 
-```html
-<div class="title">
-  <!-- both of the following are correct -->
-  <!-- <img class="photo" v-bind:src="src"> -->
-  <!-- <h1 v-text="title"></h1> -->
-  <img class="photo" :src="src" />
-  <h1>{{title}}</h1>
-</div>
-```
+   ```html
+   <div class="title">
+     <!-- both of the following are correct -->
+     <!-- <img class="photo" v-bind:src="src"> -->
+     <!-- <h1 v-text="title"></h1> -->
+     <img class="photo" :src="src" />
+     <h1>{{title}}</h1>
+   </div>
+   ```
 
-```javascript
-let data = {
-  src: "photo.png",
-  title: "Vue2 練習#1",
-};
+   ```javascript
+   let data = {
+     src: "photo.png",
+     title: "Vue2 練習#1",
+   };
 
-let vm = new Vue({
-  el: "#app",
-  data: data,
-});
-```
+   let vm = new Vue({
+     el: "#app",
+     data: data,
+   });
+   ```
 
 ---
 
@@ -79,46 +79,46 @@ let vm = new Vue({
 
    - 修改資料不能自動更新到頁面上，要再把資料更新到頁面上
 
-```html
-<div class="title">
-  <img class="photo" src="" />
-  <h1></h1>
-</div>
-```
+   ```html
+   <div class="title">
+     <img class="photo" src="" />
+     <h1></h1>
+   </div>
+   ```
 
-```javascript
-let data = {
-  src: "photo.png",
-  title: "Vue2 練習#1",
-};
+   ```javascript
+   let data = {
+     src: "photo.png",
+     title: "Vue2 練習#1",
+   };
 
-$(".title > h1").text(data.title);
-$(".photo").attr("src", data.src);
-```
+   $(".title > h1").text(data.title);
+   $(".photo").attr("src", data.src);
+   ```
 
 3. Vue 2
 
    - 修改資料可以自動更新到頁面上
    - 有兩種 html 寫法，常用的是下面
 
-```html
-<div class="title">
-  <!-- both of the following are correct -->
-  <!-- <img class="photo" v-bind:src="src"> -->
-  <!-- <h1 v-text="title"></h1> -->
-  <img class="photo" :src="src" />
-  <h1>{{title}}</h1>
-</div>
-```
+   ```html
+   <div class="title">
+     <!-- both of the following are correct -->
+     <!-- <img class="photo" v-bind:src="src"> -->
+     <!-- <h1 v-text="title"></h1> -->
+     <img class="photo" :src="src" />
+     <h1>{{title}}</h1>
+   </div>
+   ```
 
-```javascript
-let data = {
-  src: "photo.png",
-  title: "Vue2 練習#1",
-};
+   ```javascript
+   let data = {
+     src: "photo.png",
+     title: "Vue2 練習#1",
+   };
 
-let vm = new Vue({
-  el: "#app",
-  data: data,
-});
-```
+   let vm = new Vue({
+     el: "#app",
+     data: data,
+   });
+   ```
