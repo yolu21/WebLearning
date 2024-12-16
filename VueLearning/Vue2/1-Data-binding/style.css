@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffc6c661;
+    color: #333;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.photo{
+    max-width:  500px;
+    height: auto;
+}
+h1 {
+    padding:10px 100px; 
+    border-radius: 8px; 
+    background-color: #966a6a; 
+    color: aliceblue;
+}
