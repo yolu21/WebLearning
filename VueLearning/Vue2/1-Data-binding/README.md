@@ -8,7 +8,7 @@ In this project, three different methods were used to implement data binding and
    ```html
    <div class="title">
      <img class="photo" src="photo.png" alt="my photo" />
-     <h1>Vue2 練習#1</h1>
+     <h1>Vue2 exercise#1</h1>
    </div>
    ```
 
@@ -26,7 +26,7 @@ In this project, three different methods were used to implement data binding and
    ```javascript
    let data = {
      src: "photo.png",
-     title: "Vue2 練習#1",
+     title: "Vue2 exercise#1",
    };
 
    $(".title > h1").text(data.title);
@@ -51,7 +51,7 @@ In this project, three different methods were used to implement data binding and
    ```javascript
    let data = {
      src: "photo.png",
-     title: "Vue2 練習#1",
+     title: "Vue2 exercise#1",
    };
 
    let vm = new Vue({
