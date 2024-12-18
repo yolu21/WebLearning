@@ -5,6 +5,8 @@ This repository documents my journey in learning Vue 2, primarily through follow
 ## Table of Contents
 
 1. [data binding](https://github.com/yolu21/WebLearning/tree/main/VueLearning/Vue2/%231-Data-binding)
+2. [event binding](https://github.com/yolu21/WebLearning/tree/main/VueLearning/Vue2/2-Event-binding)
+3. [data processing - Two-way](https://github.com/yolu21/WebLearning/tree/main/VueLearning/Vue2/3-Form-processing)
 
 ---
 
@@ -15,3 +17,5 @@ This repository documents my journey in learning Vue 2, primarily through follow
 ## 目錄
 
 1. [資料綁定](https://github.com/yolu21/WebLearning/tree/main/VueLearning/Vue2/%231-Data-binding)
+2. [事件綁定](https://github.com/yolu21/WebLearning/tree/main/VueLearning/Vue2/2-Event-binding)
+3. [資料處理 - 雙向綁定](https://github.com/yolu21/WebLearning/tree/main/VueLearning/Vue2/3-Form-processing)
